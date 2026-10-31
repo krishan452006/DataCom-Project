@@ -1,0 +1,92 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 4405 >>
+stream
+0.06 0.16 0.22 rg 0 670 612 122 re f
+0.05 0.68 0.70 rg 0 670 8 122 re f
+1 1 1 rg BT /F2 24 Tf 40 748 Td (DIGITAL SIGNAL ENCODING) Tj ET
+1 1 1 rg BT /F2 24 Tf 40 720 Td (AND DECODING SIMULATOR) Tj ET
+0.72 0.84 0.86 rg BT /F1 10 Tf 41 695 Td (PROJECT SPECIFICATION  |  DATA COMMUNICATIONS) Tj ET
+0.72 0.84 0.86 rg BT /F2 9 Tf 452 695 Td (C11 + C++ GUI) Tj ET
+0.97 0.98 0.985 rg 40 582 532 70 re f
+0.05 0.56 0.61 rg 40 582 532 2 re f
+0.06 0.31 0.36 rg BT /F2 11 Tf 52 630 Td (1  PROJECT OVERVIEW) Tj ET
+0.12 0.18 0.23 rg BT /F1 9 Tf 52 611 Td (An educational desktop simulator for exploring digital line coding, scrambling,) Tj ET
+0.12 0.18 0.23 rg BT /F1 9 Tf 52 597 Td (signal visualization, and basic analog-to-digital modulation techniques.) Tj ET
+0.97 0.98 0.985 rg 40 419 260 148 re f
+0.05 0.56 0.61 rg 40 419 260 2 re f
+0.06 0.31 0.36 rg BT /F2 11 Tf 52 545 Td (2  FUNCTIONAL FEATURES) Tj ET
+0.12 0.18 0.23 rg BT /F2 9 Tf 52 526 Td (DATA GENERATION & ANALYSIS) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 52 511 Td (Random bits, 4/8-zero runs, or manual binary input.) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 52 497 Td (Reports the longest palindrome in the data.) Tj ET
+0.12 0.18 0.23 rg BT /F2 9 Tf 52 472 Td (LINE CODING) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 52 457 Td (NRZ-L, NRZ-I, Manchester, Differential Manchester.) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 52 437 Td (Encoding and decoding are available for these methods.) Tj ET
+0.97 0.98 0.985 rg 312 419 260 148 re f
+0.05 0.56 0.61 rg 312 419 260 2 re f
+0.06 0.31 0.36 rg BT /F2 11 Tf 324 545 Td (3  ENCODING & OUTPUT) Tj ET
+0.12 0.18 0.23 rg BT /F2 9 Tf 324 526 Td (SCRAMBLING) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 324 511 Td (AMI, B8ZS, and HDB3 encoding demonstrations.) Tj ET
+0.12 0.18 0.23 rg BT /F2 9 Tf 324 487 Td (MODULATION) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 324 472 Td (Pulse Code Modulation \(PCM\) and Delta Modulation.) Tj ET
+0.12 0.18 0.23 rg BT /F2 9 Tf 324 448 Td (RESULTS) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 324 433 Td (Signal levels, visual plots, and decoded data checks.) Tj ET
+0.97 0.98 0.985 rg 40 314 260 91 re f
+0.05 0.56 0.61 rg 40 314 260 2 re f
+0.06 0.31 0.36 rg BT /F2 11 Tf 52 383 Td (4  INPUTS & OUTPUTS) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 52 369 Td (Inputs: binary strings \(0/1\), encoding method, analog samples,) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 52 355 Td (and method-specific parameters \(PCM bits/sample; Delta step size\).) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 52 337 Td (Outputs: encoded levels, signal display, decoded bits where supported,) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 52 323 Td (and a comparison with the original input.) Tj ET
+0.97 0.98 0.985 rg 312 314 260 91 re f
+0.05 0.56 0.61 rg 312 314 260 2 re f
+0.06 0.31 0.36 rg BT /F2 11 Tf 324 383 Td (5  TECHNICAL SPECIFICATION) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 324 369 Td (Languages: C11 console application; C++ Windows GUI.) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 324 355 Td (Platform/toolchain: Windows with GCC/MinGW.) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 324 337 Td (Build: compile console sources with GCC; use build_gui.bat for GUI.) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 324 323 Td (Interface: command-line menu and native desktop graphical interface.) Tj ET
+0.97 0.98 0.985 rg 40 174 532 124 re f
+0.05 0.56 0.61 rg 40 174 532 2 re f
+0.06 0.31 0.36 rg BT /F2 11 Tf 52 276 Td (6  SCOPE, LIMITS & REQUIREMENTS) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 52 270 Td (- Binary input is limited to 1,000 bits and must contain only 0 and 1.) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 52 253 Td (- Fixed-zero generation supports runs of 4 or 8 zeros.) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 52 236 Td (- Decoding is provided for NRZ-L, NRZ-I, Manchester, and Differential Manchester.) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 52 219 Td (- AMI, B8ZS, and HDB3 are provided as encoding demonstrations.) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 52 202 Td (- PCM and Delta Modulation operate on analog sample values.) Tj ET
+0.12 0.18 0.23 rg BT /F1 8 Tf 52 185 Td (- Educational/local simulation only; this project does not transmit physical signals.) Tj ET
+0.82 0.87 0.89 RG 0.8 w 40 147 m 572 147 l S
+0.28 0.36 0.40 rg BT /F1 8 Tf 40 128 Td (PROJECT FILES: C/C++ source, headers, README, and Windows build/run scripts.) Tj ET
+0.28 0.36 0.40 rg BT /F1 8 Tf 40 112 Td (Repository: github.com/krishan452006/DataCom-Project) Tj ET
+0.05 0.56 0.61 rg BT /F2 8 Tf 527 112 Td (SPEC  |  1) Tj ET
+
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4853
+%%EOF
